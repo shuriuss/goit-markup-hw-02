@@ -1,0 +1,175 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color:  #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+body {
+        background-color: var(--primary-white-color);
+        color: var(--primary-text-color);
+        font-family:  Roboto, sans-serif;
+        
+}
+/* HEADER */
+
+.nav a,
+.contact {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav li,
+.footer li {
+    list-style-type: none;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.logo:hover,
+.logo:focus,
+.contact:hover,
+.logo:focus
+.logo-footer:hover,
+.logo-footer:focus {
+    text-decoration: underline var(--accent-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+} 
+
+.logo span {
+    color: var(--accent-color);
+}
+
+.contact {
+    color: var(--primary-text-color);
+}
+
+.contact span {
+    color: var(--accent-color);
+}
+
+
+/* HERO */
+
+.hero,
+.footer {
+    background-color: #2F303A;
+    
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+
+/* НАШЕ ПРЕИМУЩЕСТВО */
+
+.benefits h3 {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.benefits li {
+    list-style-type: none;
+}
+
+
+/* WORK */
+
+.work h2,
+.comand h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+
+
+/* COMAND */
+
+.comand  {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.comand h3 {
+    font-weight: 500;
+    font-size: 19px;
+    color: var(--title-text-color);
+}
+
+
+
+/* FOOTER */
+
+.footer {
+        
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+
+.logo-footer span {
+    color: var(--accent-color);
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.address {
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+
+.mail,
+.tell {
+
+}
