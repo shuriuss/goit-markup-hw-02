@@ -13,8 +13,8 @@ body {
 }
 /* HEADER */
 
-.nav a,
-.contact {
+
+.nav-link {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -26,6 +26,7 @@ body {
 .nav li,
 .footer li {
     list-style-type: none;
+    
 }
 
 .nav-link:hover,
@@ -34,9 +35,8 @@ body {
 .logo:focus,
 .contact:hover,
 .logo:focus
-.logo-footer:hover,
-.logo-footer:focus {
-    text-decoration: underline var(--accent-color);
+ {
+     color: var(--accent-color);
 }
 
 .logo {
@@ -46,6 +46,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 } 
 
 .logo span {
@@ -54,6 +55,7 @@ body {
 
 .contact {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .contact span {
@@ -79,13 +81,14 @@ body {
     text-transform: uppercase;
 }
 
-button {
+.button {
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    border: none;
 }
 
 
@@ -101,7 +104,11 @@ button {
     color: var(--title-text-color);
 }
 
-.benefits li {
+.benefits li,
+.work li,
+.comand li,
+.filter li,
+.examples li {
     list-style-type: none;
 }
 
@@ -145,11 +152,11 @@ button {
 
 .logo-footer {
     color: var(--primary-white-color);
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-footer span {
@@ -166,10 +173,55 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
-    text-decoration: none;
+    font-style: normal;
+
 }
 
 .mail,
 .tell {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
 
+
+/* PORTFOLIO */
+
+.button-filter {
+    background-color: #F5F4FA;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62x;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    border: none;
+    list-style-type: none;
+
+}
+
+.button-filter:hover,
+.botton-filter:focus {
+    background-color: #2196F3;
+    color: var(--primary-white-color);
+ 
+}
+
+.examles-title {
+   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.chapter {
+    font-size: 16px;
+    line-height: 1.88px;
+    letter-spacing: 0.03em;
 }
