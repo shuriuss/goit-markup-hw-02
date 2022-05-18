@@ -89,6 +89,7 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -201,6 +202,7 @@ body {
     color: var(--title-text-color);
     border: none;
     list-style-type: none;
+    cursor: pointer;
 
 }
 
