@@ -18,10 +18,12 @@ body {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
+
 
 .nav li,
 .footer li {
@@ -34,8 +36,13 @@ body {
 .logo:hover,
 .logo:focus,
 .contact:hover,
-.logo:focus
- {
+.contact:focus,
+.address:hover,
+.address:focus,
+.mail:hover,
+.mail:focus,
+.tell:hover,
+.tell:focus {
      color: var(--accent-color);
 }
 
@@ -49,13 +56,18 @@ body {
     text-decoration: none;
 } 
 
-.logo span {
+.logo span,
+.nav-link span {
     color: var(--accent-color);
 }
 
 .contact {
     color: var(--primary-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 .contact span {
@@ -182,7 +194,7 @@ body {
 .tell {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -193,10 +205,9 @@ body {
 
 .button-filter {
     background-color: #F5F4FA;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62x;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -207,11 +218,10 @@ body {
 }
 
 .button-filter:hover,
-.botton-filter:focus {
+.button-filter:focus {
     background-color: #2196F3;
     color: var(--primary-white-color);
- 
-}
+ }
 
 .examles-title {
    
@@ -224,6 +234,6 @@ body {
 
 .chapter {
     font-size: 16px;
-    line-height: 1.88px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
